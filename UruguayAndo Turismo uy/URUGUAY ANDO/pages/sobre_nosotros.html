@@ -46,7 +46,31 @@
                             <a class="nav-link " href="../pages/sobre_nosotros.html">SOBRE NOSOTROS</a>
                         </li>
                     </ul>
-
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="../index.html">inicio</a></li>
+                            <li><a class="dropdown-item" href="../pages/tu_viaje.html">Tu viaje</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="../pages/tienda.html">Tienda</a></li>
+                            <li><a class="dropdown-item" href="../pages/contactanos.html">CONTACTANOS</a></li>
+                            <li><a class="dropdown-item" href="../pages/sobre_nosotros.html">Sobre Nosotros</a></li>
+                            <li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" aria-disabled="true"></a>
+                    </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="" aria-label="Search">
+                        <button class="btn btn-outline-success bg-blue" type="submit">buscar</button>
+                    </form>
                 </div>
             </div>
         </nav>
@@ -62,39 +86,47 @@
         <section class="nosotros">
             <h2 class="subtituloHistoria">UruguayAndo, turismo Uruguguay.</h2>
 
-            <section class="parrafoHistoria">
+            <div class="parrafoHistoria row-cols-md-7 d-flex">
+                <div class="px-4"> 
+                    <p> 
                 El nombre de <b>UruguayAndo</b>
                 surgió de la combinación de dos palabras que definían perfectamente dos ideas.
                 En primer lugar la palabra <b>URUGUAY </b>, que nos sitúa como un punto estrategico para los trotamundos
                 y todo aquel amante del <b>TURISMO Y LA TRANQUILIDAD.</b>
-                en segundo lugar la palabra <b>“ANDO”</b>, asociada al deseo de andar sin prisa explorando magicos
+                en segundo lugar la palabra <b>“ANDO”</b>, asociada al deseo de andar sin prisa explorando mágicos
                 rincones de nuestro amado <b>País</b> y a el anhelo de conocerlo a profundidad.
 
                 Por último, un juego de palabras, aprovechando que UruguayAndo fonéticamente suena como <b>“ uruguay
                     ando” </b> te invitamos a <b>URUGUAYAR</b> juntos y <b>vivir diferentes experiencias, dejando
                     recuerdos difíciles de olvidar.</b>
-
-                Nuestra Misión:​
-                Nuestro objetivo es enriquecer la vida de toda clase de viajeros fomentando la realización de
-                actividades de ocio específico para cada zona en nuestro País, ofreciendo información útil y veraz a
-                nuestros clientes y diseñando experiencias de calidad que creen valor tanto para los viajero locales e
-                internacionales como para los destinos que visitamos, marcando la diferencia y contribuyendo así a
-                convertir a ésta comunidad Uruguaya en un destino fundamental y un referente del turismo familiar a
-                nivel mundial.
                 </p>
-            </section>
-            <section class="video">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/iY4k3DUdP1A?si=pox-vQ_LT0XzhwPK"
-                    title="YouTube video player" frameborder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-            </section>
+                
+                </div>
+                <div class="text-align:center; ">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/iY4k3DUdP1A?si=pox-vQ_LT0XzhwPK"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+                <div class=" px-4"> 
+                    <p> 
+                        Nuestra Misión:​
+                        Nuestro objetivo es enriquecer la vida de toda clase de viajeros fomentando la realización de
+                        actividades de ocio específico para cada zona en nuestro País, ofreciendo información útil y veraz a
+                        nuestros clientes y diseñando experiencias de calidad que creen valor tanto para los viajero locales e
+                        internacionales como para los destinos que visitamos, marcando la diferencia y contribuyendo así a
+                        convertir a ésta comunidad Uruguaya en un destino fundamental y un referente del turismo familiar a
+                        nivel mundial.
+                    </p>
+                </div>
+            </div>
+            
         </section>
 
-        <section class="seccionTestimonios">
+        <div class="seccionTestimonios  container fluid ">
             <h2 class="tituloTestimonios"> TESTIMONIOS</h2>
-            <div class="container">
-                <section class="cardTestimonio">
+            <div class="col-sm-6 col-md-4">
+                <div class="  cardTestimonio ">
                     <img class="imgTestimonio" src="../assets/img/hombre.jpg"
                         alt="hombre cabello negro y camisa blanca">
                     <div>
@@ -103,10 +135,10 @@
                             tranquilas y acogedoras de Sudamérica; apenas hay atascos y se puede caminar fácilmente por
                             la ciudad. </p>
                     </div>
-                </section>
+                </div>
 
-
-                <section class="cardTestimonio">
+               
+                <div class="cardTestimonio">
                     <img class="imgTestimonio" src="../assets/img/chica rubia.jpg" alt="mujer cabello color miel ">
                     <div>
                         <h3>Gala Ciancaglini</h3>
@@ -114,10 +146,10 @@
                             encuentra emplazada sobre el cabo que forman las puntas de San Pedro y Santa Rita. Su casco
                             antiguo, el barrio histórico que </p>
                     </div>
-                </section>
+                </div>
 
 
-                <section class="cardTestimonio">
+                <div class="cardTestimonio">
                     <img class="imgTestimonio" src="../assets/img/Rhombre rubio.jpg"
                         alt="hombre rubio con camisa y corbata">
                     <div>
@@ -127,10 +159,10 @@
                             durante el día y desde el cual hay una vista privilegiada a todo el balneario, la Isla
                             Encantada, Rasa y El Islote sobre las cuales habita una colonia </p>
                     </div>
-                </section>
+                </div>
 
 
-                <section class="cardTestimonio">
+                <div class="cardTestimonio">
                     <img class="imgTestimonio" src="../assets/img/mujer morocha.jpg"
                         alt="mujer morena, cabellos rizados">
                     <div>
@@ -139,9 +171,10 @@
                             Parque Nacional Santa Teresa, entre los balnearios de Punta del Diablo y La Coronilla.A
                             través de senderos autoguiados descubrirás zonas de recreo.</p>
                     </div>
-                </section>
+                </div>
 
             </div>
+        </div>
     </main>
     <div class="row container-fluid my-5">
 
@@ -187,7 +220,7 @@
                                 <a href="../index.html" class="text-white"> Inicio</a>
                             </li>
                             <li class="mb-2">
-                                <a href="../tu_viaje.html" class="text-white">Tu viaje</a>
+                                <a href="../pages/tu_viaje.html" class="text-white">Tu viaje</a>
                             </li>
                             <li class="mb-2">
                                 <a href="../pages/sobre_nosotros.html" class="text-white"> Sobre nosotros</a>
@@ -196,7 +229,9 @@
                                 <a href="../pages/contactanos.html" class="text-white"> Contactanos</a>
                             </li>
                             <li class="mb-2">
-                                <a href="../pages/tienda.html" class="text-white"> Contactanos</a>
+                                <a href="../pages/tienda.html" class="text-white"> Tienda</a>
+                            </li>
+                            
                             </li>
                         </ul>
                     </div>
@@ -241,7 +276,7 @@
 
                         <ul class="list-unstyled">
                             <li>
-                                <p><i class="fas fa-map-marker-alt pe-2"></i>18 de julio 1423</p>
+                                <p><i class="fas fa-map-marker-alt pe-2"></i>18 de julio 203</p>
                             </li>
                             <li>
                                 <p><i class="fas fa-phone pe-2"></i> 20 580 360</p>
