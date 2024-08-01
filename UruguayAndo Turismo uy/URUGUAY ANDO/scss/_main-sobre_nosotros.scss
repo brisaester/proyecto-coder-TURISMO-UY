@@ -1,0 +1,152 @@
+.mainNosotros {
+
+  @media (min-width: 370px) and (max-width: 768px) and (max-width: 1250px) {
+    .mainNosotros {
+      width: 340px;
+    }
+  }
+
+  /*img de fondo*/
+  @media screen and (min-width: 370px) and (max-width: 768px) and (max-width: 1250px) {
+    .card-img {
+      width: 380px;
+      height: 220px;
+      margin-left: 0 auto;
+      background-color: aqua;
+
+
+    }
+  }
+
+  /* titulo sobre nosotros*/
+  .titulo1 {
+    padding-top: 220px;
+    color: rgb(17, 21, 235);
+    font-weight: bold;
+    font-size: 40px;
+
+  }
+
+  @media (min-width: 370px) and (max-width: 768px) and (max-width: 1250px) {
+    .titulo1 {
+      font-size: medium;
+      margin-top: 20px;
+      text-align: start;
+      margin-left: 100px;
+    }
+  }
+
+  .linkContactanos {
+    background-color: rgb(34, 31, 236);
+    color: white;
+    text-decoration: none;
+    border: 3px solid rgb(62, 17, 187);
+    $border-radius: 10px;
+    height: 38px;
+    width: 150px;
+    display: inline-block;
+    text-align: center;
+    padding: 6px 6px;
+    align-items: center;
+    font-size: 15px;
+    margin-top: 30px;
+
+    &:hover {
+      background-color: #d320d3;
+    }
+  }
+
+  @media (min-width: 370px) and (max-width: 768px) and (max-width: 1250px) {
+    .linkContactanos {
+      background-color: rgba(34, 31, 236, 0.479);
+      margin-top: 40px;
+      align-items: center;
+      height: 30px;
+      width: 80;
+      padding: 2px;
+      text-align: center;
+      font-size: 16px;
+      font-weight: normal;
+
+
+    }
+  }
+
+  @media screen and (min-width:370px) and (max-width: 768px) and (max-width: 1250px) {
+    .video {
+      width: 300px;
+      height: 200px;
+      margin-left: 12px;
+
+    }
+  }
+
+  /*uruguayando turismo uy*/
+  .subtituloHistoria {
+    color: rgb(17, 21, 235);
+    padding-top: 30px;
+    margin-bottom: 30px;
+    font-size: 50px;
+  }
+
+  @media screen and (min-width: 370px) and (max-width: 768px)and (max-width: 1250px) {
+    .subtituloHistoria {
+      font-size: 20px;
+      font-weight: normal;
+      color: #d320d3;
+      width: 230px;
+      margin-left: 50px;
+    }
+  }
+
+  .parrafoHistoria {
+    text-align: justify;
+  }
+
+  @media screen and (min-width: 370px) and (max-width: 768px)and (max-width: 1250px) {
+    .parrafoHistoria {
+      width: 350px;
+      font-size: 16px;
+      text-align: left;
+      padding-bottom: 20px;
+
+    }
+  }
+      /*testimonio titulo en recuadro azul*/
+  .testimonios {
+    font-size: 4rem;
+    color: white;
+    margin: 20px 20px;
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+    text-align: center;
+    background-color: #28389150;
+    height: 90px;
+
+  }
+
+  /* testimonio (subtitulo)*/
+  @media screen and (min-width: 370px) and (max-width: 768px)and (max-width: 1250px) {
+    .subtitulo {
+      font-size: 40px;
+      margin-bottom: 100px;
+      margin-top: 20px;
+      height: 90px;
+      justify-content: flex-end;
+      text-align: center;
+
+
+
+    }
+
+  }
+
+   /*card testimonios*/
+  .texto-testimonio {
+    color: rgba(20, 10, 104, 0.733);
+    text-align: start;
+
+
+  }
+
+}
