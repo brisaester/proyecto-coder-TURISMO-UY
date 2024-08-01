@@ -17,7 +17,33 @@
         }
     }
 
-    /*fin vive la magia de uruguy*/
+    /*fin vive la magia de uruguy*/ 
+    .texto-animado {
+        animation: mover 10s ease infinite alternate ;
+        position: fixed;
+        left: 0;
+        bottom: 200px;
+        transform: translateX(-100%);
+    }
+    
+    @keyframes mover {
+        0%, 100% {
+            transform: translateX(0);
+        }
+        50% {
+            transform: translateX(calc(100vw - 100%));
+        }
+    }
+    @media (min-width: 370px) and (max-width: 768px){
+
+        .texto-animado {
+            animation: mover 10s ease infinite alternate ;
+            position: fixed;
+            left: 0;
+            bottom: 400px;
+            transform: translateX(-100%);
+        }
+    }
 
     .p-subtitulo {
         /*inicio subtitulo tu escape al paraiso*/
@@ -33,44 +59,7 @@
         }
     }
 
-    #texto {
-        /*para hacer animación*/
-        background: white;
-        animation-name: subtituloI;
-        animation-duration: 4s;
-        animation-delay: 2s;
-        position: relative;
-
-    }
-
-    @keyframes subtituloI {
-        0% {
-            background: white;
-            left: 0;
-            top: 100px;
-        }
-
-        50% {
-            background: #0fb4e6;
-            left: 600px;
-            top: 100px;
-        }
-
-        100% {
-            background: #0f25e6;
-            left: 900;
-            top: 100;
-        }
-
-        55% {
-            background: white;
-            left: 600px;
-            top: 100px;
-        }
-    }
-
-    /* fin animacion que no esta hecha*/
-
+    
     .linkContactanos {
         /* link contacto inicio*/
         background-color: rgb(34, 31, 236);
