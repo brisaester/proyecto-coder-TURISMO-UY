@@ -1,0 +1,132 @@
+.mainViaje {
+
+    .tituloViaje {
+        /*titulo tu viaje*/
+        color: blue;
+        font-size: 60;
+        font-weight: bold;
+        font-size: 60px;
+        padding-top: 100px;
+    }
+
+    @media (min-width: 370px) and (max-width: 768px) {
+        .tituloViaje {
+            font-size: 30px;
+            padding-top: 10px;
+        }
+
+    }
+
+    /*inicio link contacto*/
+    .linkContactanos {
+        background-color: rgb(34, 31, 236);
+        color: white;
+        text-decoration: none;
+        border: 3px solid rgb(62, 17, 187);
+        $border-radius: 10px;
+        height: 50px;
+        width: 190px;
+        display: inline-block;
+        text-align: center;
+        align-items: center;
+        padding: 8px;
+        margin-left: 630px;
+        align-items: center;
+        font-size: 20px;
+        margin-top: 30px;
+
+        &:hover {
+            background-color: #d320d3;
+        }
+
+    }
+
+    @media (min-width: 370px) and (max-width: 768px) and (max-width:1200px) {
+        .linkContactanos {
+            margin-left: 80px;
+            margin-top: 0px;
+            width: 150px;
+            height: 30px;
+            font-size: 16px;
+            padding: 2px;
+            background-color: rgba(35, 35, 230, 0.295);
+            justify-content: center;
+        }
+    }
+
+    .subtituloViaje {
+        /* escapate con nosotros a..*/
+
+        margin-top: 30px;
+        font-size: 40px;
+        color: blue;
+
+    }
+
+    .botonComprar {
+        background-color: rgb(34, 37, 223);
+        color: white;
+        text-decoration: none;
+        border: 3px solid rgb(62, 17, 187);
+        border-radius: 10px;
+        height: 50px;
+        width: 50px;
+        justify-content: center;
+        padding: 8px;
+        margin-top: 15px;
+        margin-left: 220px;
+        font-size: 20px;
+        margin-bottom: 20px;
+
+        &:hover {
+            background-color: #d320d3;
+        }
+    }
+
+    @media (min-width: 370px) and (max-width: 768px) and (max-width:1200px) {
+        .botonComprar {
+            margin-left: 20px;
+            justify-content: center;
+        }
+    }
+
+    /* cards*/
+    :root {
+        --max: 30rem
+    }
+
+    body {
+        margin: 0;
+        padding: 0;
+        min-height: 100%
+    }
+
+    .card {
+        width: var(--max)
+    }
+
+    .card-img-top {
+        $t-100por: 100%;
+        max-width: var(--max);
+        height: calc(var(--max));
+        object-fit: cover;
+        padding-top: $t-10px;
+
+
+
+    }
+
+    .card-title {
+        background-color: #d320d300;
+        padding-bottom: 18px;
+        color: darkblue;
+        font-weight: bold;
+    }
+
+    .card-text {
+        padding-top: 18px;
+        color: rgb(10, 10, 131);
+        background-color: #d320d300;
+    }
+
+}
